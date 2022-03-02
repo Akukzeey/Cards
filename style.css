@@ -1,0 +1,104 @@
+.container {
+  background: #090b1a;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .container2 {
+  display: flex;
+  width: 60%;
+}
+.container .containerA {
+  background: #1b1938;
+  text-align: left;
+  flex-direction: row;
+  justify-items: center;
+  padding: 36px 31px;
+  width: 40%;
+}
+.container .containerA h1 {
+  font-family: "Inter", sans-serif;
+}
+.container .containerA p {
+  color: rgba(255, 255, 255, 0.75);
+  text-overflow: ellipsis;
+}
+.container .containerA .ins {
+  color: #aa5cdb;
+}
+.container .containerA .text {
+  display: flex;
+  margin-top: 65px;
+}
+.container .containerA .text1 {
+  margin-right: 30px;
+}
+.container .containerB {
+  width: 60%;
+}
+.container .containerB .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.container .containerB img {
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 100%;
+}
+.container .color-overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0.4;
+  background: #aa5cdb;
+  position: absolute;
+}
+
+@media (max-width: 1200px) {
+  .container .container2 {
+    width: 85%;
+  }
+}
+@media (max-width: 992px) {
+  .container .container2 {
+    width: 99%;
+  }
+  .container .containerA {
+    width: 30%;
+  }
+  .container .containerB {
+    width: 70%;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    height: 100%;
+    width: 100%;
+  }
+  .container .container2 {
+    width: 300px;
+    flex-direction: column-reverse;
+  }
+  .container .containerA {
+    width: 87%;
+    text-align: center;
+    padding: 20px;
+    margin-top: -10px;
+  }
+  .container .containerA .text {
+    flex-direction: column;
+    text-align: center;
+    margin-top: -12px;
+  }
+  .container .containerB {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
