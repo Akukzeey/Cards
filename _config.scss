@@ -1,0 +1,11 @@
+$primary-color:hsl(233, 47%, 7%);
+$secondary-color:hsl(244, 38%, 16%);
+$tertiary-color:hsl(277, 64%, 61%);
+
+
+
+@mixin flexCentre(){
+  display: flex;
+  justify-content: center;
+  align-items:center ;
+}
